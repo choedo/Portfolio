@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDY's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/event.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <header>
+                <nav>
+                    <ul class="mn">
+                        <li class="on"><a href="#">Main</a></li>
+                        <li><a href="#">Skill</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <section id="sec_main">
+            <div id="main_in" class="container">
+                <h1>안녕하세요:)<br>프론트엔드 개발자<br>최도영입니다.</h1>
+                <p>Front-end Developer</p>
+            </div>
+        </section>
+
+        <section id="sec_skill">
+            <div id="skill_in" class="container">
+                <h2>Skill</h2>
+                <div class="skill_list">
+                    <div>
+                        <div>
+                            <p>HTML</p>
+                            <div class="box">
+                                <div class="box_in" data-width="90"><span>90%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>CSS</p>
+                            <div class="box">
+                                <div class="box_in" data-width="90"><span>90%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>JS</p>
+                            <div class="box">
+                                <div class="box_in" data-width="70"><span>70%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>jQuery</p>
+                            <div class="box">
+                                <div class="box_in" data-width="80"><span>80%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>React</p>
+                            <div class="box">
+                                <div class="box_in" data-width="60"><span>60%</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p>Node</p>
+                            <div class="box">
+                                <div class="box_in" data-width="60"><span>60%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>JAVA</p>
+                            <div class="box">
+                                <div class="box_in" data-width="70"><span>70%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Oracle</p>
+                            <div class="box">
+                                <div class="box_in" data-width="80"><span>80%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>MySQL</p>
+                            <div class="box">
+                                <div class="box_in" data-width="80"><span>80%</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Mongo<br>DB</p>
+                            <div class="box">
+                                <div class="box_in" data-width="60"><span>60%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec_portfolio">
+            <div id="portfolio_in" class="container">
+                <h2>Protfolio</h2>
+                
+                <div class="portfolio_con">
+                    <div class="portfolio">
+                        <div class="portfolio_img"><img src="./images/burgerking.png" alt="버거킹"></div>
+                        <div class="portfolio_info">
+                            <h5>버거킹 리액트<span>(반응형 제작중...)</span></h5>
+                            <p><strong>작업기간</strong> : 4주</p>
+                            <p><strong>사용기술</strong> : React, HTML, CSS, JS</p>
+                            <p>
+                                React로 버거킹 홈페이지를 리뉴얼 제작하였습니다.<br>
+                                json 파일을 이용하여 데이터를 출력하였고,<br>
+                                카카오 지도 api를 이용하여 지도 탭을 완성하였습니다.
+                            </p>
+                            <div class="portfolio_link">
+                                <a href="https://choedo.github.io/Burgerking/" target="_blank">See Live</a>
+                                <a href="https://github.com/choedo/Burgerking" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_con">
+                    <div class="portfolio">
+                        <div class="portfolio_img"><img src="./images/todolist.png" alt="할일앱"></div>
+                        <div class="portfolio_info">
+                            <h5>Todo-List</h5>
+                            <p><strong>작업기간</strong> : 1주</p>
+                            <p><strong>사용기술</strong> : React, HTML, CSS, JS</p>
+                            <p>
+                                React를 활용한 간단한 TodoList입니다.
+                            </p>
+                            <div class="portfolio_link">
+                                <a href="https://choedo.github.io/TodoList/" target="_blank">See Live</a>
+                                <a href="https://github.com/choedo/TodoList" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio_con">
+                    <div class="portfolio">
+                        <div class="portfolio_img"><img src="./images/portfolio.png" alt="포트폴리오"></div>
+                        <div class="portfolio_info">
+                            <h5>포트폴리오 홈페이지</h5>
+                            <p><strong>작업기간</strong> : 2주</p>
+                            <p><strong>사용기술</strong> : HTML, CSS, JS, jQuery</p>
+                            <p>
+                                포트폴리오 홈페이지입니다.
+                            </p>
+                            <div class="portfolio_link">
+                                <a href="https://choedo.github.io/portfolio/" target="_blank">See Live</a>
+                                <a href="https://github.com/choedo/portfolio" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio_con">
+                    <div class="portfolio">
+                        <div class="portfolio_img"><img src="./images/MEGABOX.png" alt="메가박스"></div>
+                        <div class="portfolio_info">
+                            <h5>메가박스 클론코딩<span>(반응형x)</span></h5>
+                            <p><strong>작업기간</strong> : 2주</p>
+                            <p><strong>사용기술</strong> : HTML, CSS, JS, jQuery</p>
+                            <p>HTML, CSS, JS, jQuery의 이해와 기술 숙련을 위한<br> 메가박스 메인 페이지 클론코딩입니다.</p>
+                            <div class="portfolio_link">
+                                <a href="https://choedo.github.io/megabox-clone/" target="_blank">See Live</a>
+                                <a href="https://github.com/choedo/megabox-clone" target="_blank"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec_contact">
+            <div id="contact_in" class="container">
+                <h2>Contact</h2>
+                <div class="outro">
+                    <div class="outroImg">
+                        <div class="outroImg_con">
+                            <img src="./images/contact.jpg" alt="내사진">
+                            <h2>최도영<br><span>front-end dev</span></h2>
+                            <a href="#">Hire me</a>
+                        </div>
+                    </div>
+                    <div class="outroText">
+                        <p>
+                            "항상 배우려는 자세를 유지하고 어제보다 더 나은,<br> 내일이 더 기대되는 개발자가 되겠습니다."
+                        </p>
+                        <span>E-mail : 96doyeong@naver.com</span>
+                        <a href="https://github.com/choedo"></a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div id="footer_in">
+                    <h4>
+                        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+                        © 2022 Choi Do-Yeong. All Rights Reserved.
+                    </h4>
+                </div>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
